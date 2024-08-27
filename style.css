@@ -1,0 +1,196 @@
+@font-face{
+    font-family: 'Sedgwick AD';
+    src: url('fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src : url('fonts/Ubuntu/Ubuntu-Bold.ttf')
+
+}
+
+@font-face{
+    font-family: 'Ubuntu Light';
+    src: url('fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Jockey One';
+    src: url('fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'Irish Groover';
+    src: url('fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Stainlist One';
+    src: url('fonts/Stalinist_One/StalinistOne-Regular.ttf');
+}
+
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+   
+    
+}
+.header{
+    background-image: url('images/backgroundHomePage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.judul{
+    text-align: start;
+    padding: 250px 100px;
+}
+.judul h1{
+    font-family: 'Sedgwick AD';
+    font-size: 145px;
+    font-weight: 400;
+}
+
+.text-home{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    padding-top: 12px;
+}
+
+.button-home{
+    display: flex;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.button-Buy-ticket{
+    width: 240px;
+    height: 87px;
+    background-color: #9A0F0F;
+    color: #ffffff;
+    font-family: 'Irish Groover';
+    font-size: 30px;
+    border: none;
+    box-shadow: 7px 7px #b00000;
+}
+
+.button-read-more{
+    width: 240px;
+    height: 87px;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Irish Groover';
+    font-size: 30px;
+    border: none;
+    box-shadow: 7px 7px #d3a8a8;
+}
+
+.list-kota{
+    font-family: 'Stainlist One';
+    font-size: 20px;
+   
+}
+
+.list-kota ul{
+    position: relative;
+    top: -1110px;
+    right: -890px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    rotate: -90deg;
+}
+
+.list-kota li{
+    color: #765050;
+    
+}
+
+.btn-logout{
+    width: 122px;
+    height: 64px;
+    background-color: #9A0F0F;
+    position: relative;
+    left: 111.2rem;
+    top: 2rem;
+    padding-top: 10px;
+    padding-left: 40px;
+    box-shadow: -2px 5px #b00000;
+}
+
+.list-kota-hp{
+    display: none;
+}
+
+/* sec time cd */
+
+.countdown{
+    background-image: url('images/bg countdown.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.text-cd{
+    font-family: 'Jockey One';
+    text-align: start;
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+.title-cd h1{
+    position: relative;
+    margin-left: 300px;
+}
+.title-cd h3{
+    font-family: 'Irish Groover';
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 242px;
+    padding-left: 20px;
+    height: 56px;
+    margin:  0 300px;
+    background: #fff;
+}
+.sec-time-cd{
+   position: relative;
+   top : -250px;
+   left: 400px;
+   margin-top: 20px;
+}
+.time-cd{
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    gap: 60px;
+    font-family: 'Jockey One';
+}
+
+.time-cd-p{
+    display: flex;
+    justify-content: center;
+    font-family:  'Ubuntu Light';
+    font-weight: 400;
+    font-size: 25px;
+    gap: 30px;
+}
+
+
+.deskripsi-about{
+  display: flex;
+  background: #000;
+  padding-top: 150px;
+}
+
+.desk-1{
+
+}
