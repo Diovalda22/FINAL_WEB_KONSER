@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face{
     font-family: 'Sedgwick AD';
     src: url('fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf')
@@ -368,4 +369,145 @@
 
 .tmbnail-album{
    margin-right: 50px;
+=======
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tour {
+  width: 100%;
+  /* height: auto; */
+  padding: 20px;
+}
+
+.header_tour {
+  font-size: 60px;
+  color: #9A0F0F;
+}
+
+.indonesia_container {
+  width: 100%;
+  height: 200px;
+}
+
+.indonesia_container .bg_tour h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  color: black;
+}
+
+.indonesia_container p {
+  margin-top: 20px;
+  width: 600px;
+}
+
+
+.jakarta_container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.jakarta_left {
+
+}
+
+.bg_location h2{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9A0F0F;
+  width: 280px;
+  height: 70px;
+  color: #fff;
+}
+
+.jakarta_date {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 280px;
+  color: #9A0F0F;
+}
+
+.jakarta_center {
+  width: 200px;
+  height: 2px;
+  background-color: #c80a0a;
+}
+
+.jakarta_right button{
+  border: none;
+  width: 200px;
+  height: 70px;
+  background-color: #9A0F0F;
+  box-shadow: 5px 5px #b00000;
+  cursor: pointer;
+}
+
+.jakarta_right button:hover {
+  background-color: #c80a0a;
+}
+
+.upcoming_header {
+  font-size: 50px;
+  margin: 80px 0px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+
+
+.upcoming_left .place{
+  font-size: 60px;
+  width: 200px;
+}
+
+.upcoming_left .location{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 350px;
+  height: 70px;
+  color: #000;
+  margin-bottom: 100pxk;
+}
+
+.upcoming_left .date {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.upcoming_center {
+  height: 2px;
+  width: 200px;
+  background-color: white;
+}
+
+.upcoming_right {
+  width: 200px;
+>>>>>>> 03a3aff49e31545a1f18e8ff737f149b6bdf4198
 }
