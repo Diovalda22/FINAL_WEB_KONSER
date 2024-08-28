@@ -28,11 +28,21 @@
     src: url('fonts/Stalinist_One/StalinistOne-Regular.ttf');
 }
 
+@font-face{
+    font-family: 'trade winds';
+    src: url('fonts/Trade_Winds/TradeWinds-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Walter Tc';
+    src: url('fonts/Walter_Turncoat/WalterTurncoat-Regular.ttf');
+}
 *, html, body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
+    
    
     
 }
@@ -189,8 +199,173 @@
   display: flex;
   background: #000;
   padding-top: 150px;
+  justify-content: center;
+  gap: 100px;
 }
 
+.about{
+    background: #000;
+}
 .desk-1{
+    font-family: 'Walter tc';
+    font-size: 25px;
+    text-align: start;
+    width: 437px;
+}
+.desk-2{
+    font-family: 'Walter tc';
+    font-size: 25px;
+    text-align: end;
+    width: 462px;
+}
 
+.social-icon{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   padding-top: 100px;
+   color: #000000;
+}
+.sosmed{
+    height: 90px;
+    width: 90px;
+    border-radius: 20px 0 20px 0;
+    background: #fff;
+    box-shadow: 5px 5px #d3a8a8;
+}
+
+.sosmed img{
+    width: 40px;
+    height: 40px;
+    margin: 25px 25px;
+}
+
+.garis-putih-about{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 650px;
+    padding-bottom: 50px;
+}
+
+.title-gallery{
+    font-size: 60px;
+    font-family: 'trade winds';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.sec-to-contact{
+    background-image: url('images/bg-homeTicket.png');
+    height: 710px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.position-to-contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.title-sec-album{
+    display: grid;
+    gap: 30px;
+}
+
+.title-sec-album h3{
+    font-size: 40px;
+    font-family: 'Jockey one';
+    font-weight: 400;
+}
+
+.btn-to-contact{
+    height: 74px;
+    width: 233px;
+    background-color: #fff;
+    box-shadow: 5px 5px #d3a8a8;
+}
+
+.btn-to-contact a{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Irish Groover';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}   
+
+.desc-contact{
+    font-family: 'Ubuntu Light';
+    font-size: 15px;
+    text-align: start;
+    width: 373px;
+}
+
+.new-album{
+    background: #000;
+    margin-top: 40px;
+}
+
+    
+.album{
+    background-color: #ffffff;
+    width: 1040px;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    padding: 40px 0;
+}
+
+.bg-album h2{
+    font-family: 'Jockey One';
+    color: #000;
+    font-weight: 400;
+   font-size: 40px;
+   text-align: end;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.btn-listen-now{
+    width: 249px;
+    height: 77px;
+    background: #000;
+    box-shadow: 5px 5px gray;
+    margin: 50px;
+}
+.listen-now{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Irish Groover';
+    font-weight: 400;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    width: 249px;
+    height: 77px;
+  
+}
+
+.tmbnail-album{
+   margin-right: 50px;
 }
